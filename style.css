@@ -1,0 +1,56 @@
+body {
+    color: rgb(10, 13, 16);
+    background-color: rgb(157, 157, 165);
+}
+
+h1 {
+    margin-left: 20%;
+    font-size: 36px;
+    font-family: sans-serif;
+}
+
+.input-box {
+    width: 350px;
+    height: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+/*  icons */
+.fa-check-circle,
+.fa-edit,
+.fa-trash-alt {
+    cursor: pointer;
+}
+/* delete icon */
+.delete {
+    color: red;
+}
+/*  checked tasks */
+.completed .fa-check-circle {
+    color: green;
+}
